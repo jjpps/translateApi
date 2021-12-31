@@ -1,14 +1,14 @@
-class Sentence{
-    texto:string
+class Sentence {
+    texto;
 
-    constructor(name: string) {        
+    constructor(name) {
         this.texto = name;
     }
-    setTexto(tex:string){
-        this.texto=tex;
+    setTexto(tex) {
+        this.texto = tex;
         return this.texto;
     }
-    getTexto(){
+    getTexto() {
         return this.texto;
     }
 }
